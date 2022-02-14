@@ -1,0 +1,230 @@
+:root {
+  --main-color: #212121;
+  --highlight-color: #2196f3;
+  --aux-text-color: #757575;
+  --background-color: #2f303a;
+  --hero-footer-text-color: #fff;
+  --filter-button-background-color: #f5f4fa;
+  --order-button-hover-focus: #188ce8;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  color: var(--main-color);
+}
+
+/* reset */
+.link {
+  text-decoration: none;
+  color: inherit;
+}
+
+.list {
+  list-style: none;
+  padding: 0;
+}
+
+.heading {
+  margin: 0;
+}
+
+/* logos */
+.top-logo,
+.bottom-logo {
+  font-family: Raleway;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  color: var(--highlight-color);
+}
+
+/* contacts-hover-focus-active */
+.contact:hover,
+.contact:focus,
+.contact:active {
+  color: var(--highlight-color);
+  opacity: 1;
+}
+
+/* header */
+
+.nav-list-link,
+.top-mail,
+.top-tel {
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.02em;
+}
+
+.top-tel,
+.top-mail {
+  color: var(--aux-text-color);
+}
+
+.nav-list-link:hover,
+.nav-list-link:focus,
+.nav-list-link:active {
+  color: var(--highlight-color);
+}
+
+.page-header .logo-span {
+  color: var(--main-color);
+}
+
+/* order section */
+
+.order-section {
+  background-color: var(--background-color);
+}
+
+.order-section-title {
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  text-align: center;
+  color: var(--hero-footer-text-color);
+}
+
+.order-btn {
+  font-family: inherit;
+  text-align: center;
+  background-color: var(--highlight-color);
+  color: var(--hero-footer-text-color);
+  cursor: pointer;
+}
+
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--order-button-hover-focus);
+}
+
+/* advantages section */
+
+.advantages-title {
+  display: none;
+}
+
+.advantages-item-title {
+  font-size: 14px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+}
+
+.advantages-item-description {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--aux-text-color);
+}
+
+/* about section */
+
+.about-section-title,
+.team-section-title {
+  font-size: 36px;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-align: center;
+  color: var(--main-color);
+}
+
+/* team section */
+.team-section {
+  background-color: var(--filter-button-background-color);
+}
+
+.team-list-item {
+  background-color: var(--hero-footer-text-color);
+}
+
+.team-member-title {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.team-member-position {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+  letter-spacing: 0.03em;
+  color: var(--aux-text-color);
+}
+
+/* footer */
+.footer {
+  background-color: var(--background-color);
+}
+.footer .logo-span {
+  color: var(--hero-footer-text-color);
+}
+
+.office-address {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-footer-text-color);
+}
+
+.bottom-mail,
+.bottom-tel {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: var(--hero-footer-text-color);
+  opacity: 0.6;
+}
+
+/* portfolio page */
+/* portfolio header - same */
+
+/* main-section */
+/* filter */
+
+.filter-title {
+  display: none;
+}
+.filter-button {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+  letter-spacing: 0.03em;
+  cursor: pointer;
+  font-family: inherit;
+  border: none;
+  color: var(--main-color);
+  background-color: var(--filter-button-background-color);
+}
+
+.filter-button:active,
+.filter-button:hover,
+.filter-button:focus {
+  background-color: var(--highlight-color);
+  color: var(--hero-footer-text-color);
+}
+
+/* credentials */
+.credential-item-title {
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+
+.credential-item-description {
+  font-size: 16px;
+  line-height: 1.87;
+  letter-spacing: 0.03em;
+  color: var(--aux-text-color);
+}
+
+/* portfolio footer - same */
