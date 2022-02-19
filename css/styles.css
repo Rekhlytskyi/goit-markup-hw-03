@@ -13,6 +13,12 @@ body {
   color: var(--main-color);
 }
 
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
 /* reset */
 .link {
   text-decoration: none;
@@ -32,9 +38,14 @@ ul {
   margin: 0;
 }
 
+.section {
+  padding: 94px 0;
+}
+
 /* container */
 
 .container {
+  padding: 0 15px;
   width: 1200px;
   margin-left: auto;
   margin-right: auto;
@@ -89,13 +100,13 @@ ul {
   letter-spacing: 0.02em;
 }
 
+.top-contacts {
+  margin-left: auto;
+}
+
 .navigation,
 .top-contacts {
   column-gap: 50px;
-}
-
-.navigation {
-  margin-right: 330px;
 }
 
 .top-tel,
@@ -119,7 +130,6 @@ ul {
   background-color: var(--background-color);
   padding-bottom: 200px;
   padding-top: 200px;
-  margin-bottom: 94px;
 }
 
 .order-section-title {
@@ -169,9 +179,7 @@ ul {
 
 .advantages-list {
   display: flex;
-  justify-content: space-between;
   column-gap: 30px;
-  margin-bottom: 94px;
 }
 
 .advantages-list-item {
@@ -208,23 +216,16 @@ ul {
 
 .about-section-list {
   display: flex;
-  justify-content: flex-start;
   column-gap: 30px;
-  margin-bottom: 94px;
 }
 
-.about-item-image {
-  display: block;
+.about-section {
+  padding-top: 0;
 }
 
 /* team section */
 .team-section {
   background-color: var(--filter-button-background-color);
-}
-
-.team-div {
-  padding-top: 94px;
-  padding-bottom: 94px;
 }
 
 .team-section-list {
@@ -234,12 +235,6 @@ ul {
 
 .team-list-item {
   background-color: var(--hero-footer-text-color);
-  padding-bottom: 30px;
-}
-
-.team-image {
-  display: block;
-  margin-bottom: 30px;
 }
 
 .team-member-title {
@@ -260,12 +255,16 @@ ul {
   margin: 0;
 }
 
+.team-item-div {
+  padding: 30px 0;
+}
+
 /* footer */
 .footer {
   background-color: var(--background-color);
 }
 
-.footer-div {
+footer {
   padding-top: 60px;
   padding-bottom: 60px;
 }
@@ -276,7 +275,7 @@ ul {
 
 .bottom-logo {
   display: inline-block;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 .office-address {
@@ -291,6 +290,10 @@ ul {
 
 .bottom-contacts-item {
   margin-bottom: 10px;
+}
+
+.bottom-contacts-item:last-child {
+  margin-bottom: 0;
 }
 
 .bottom-mail,
@@ -308,10 +311,6 @@ ul {
 
 /* main-section */
 /* filter */
-
-.portfolio-header {
-  margin-bottom: 94px;
-}
 
 .filter-div {
   margin-bottom: 50px;
@@ -352,9 +351,6 @@ ul {
 }
 
 /* credentials */
-.credentials-div {
-  margin-bottom: 94px;
-}
 
 .credential-image {
   display: block;
@@ -365,7 +361,6 @@ ul {
   line-height: 2;
   letter-spacing: 0.06em;
   margin-bottom: 4px;
-  padding: 0 24px;
 }
 
 .credential-item-description {
@@ -374,7 +369,6 @@ ul {
   letter-spacing: 0.03em;
   color: var(--aux-text-color);
   margin: 0;
-  padding: 0 24px 20px;
 }
 
 .credentials-list {
@@ -385,7 +379,7 @@ ul {
 }
 
 .credential-item-text {
-  padding-top: 20px;
+  padding: 20px 24px;
   border: 1px solid #eee;
   border-top: none;
 }
